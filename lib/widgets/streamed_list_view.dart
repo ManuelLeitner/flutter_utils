@@ -2,7 +2,6 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import '../flutter_utils.dart';
-import 'exception_view.dart';
 
 class StreamedListView<T> extends StatelessWidget {
   final Stream<List<T>> stream;
